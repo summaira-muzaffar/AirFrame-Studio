@@ -1,0 +1,15 @@
+# Tested: Python 3.12 (MediaPipe 0.10.x, OpenCV 4.13) and the versions in requirements-lock.txt.
+# MediaPipe 1.x and OpenCV 5 work too, so the ranges below are wide on purpose.
+opencv-python>=4.8,<6
+numpy>=1.24,<3
+mediapipe>=0.10.14,<2
+
+# Optional - only if you want AI styling with --diffusion MODEL_ID_OR_FOLDER
+# (Stable Diffusion, or FLUX such as black-forest-labs/FLUX.1-schnell)
+# torch
+# diffusers
+# transformers
+# accelerate
+# pillow
+# sentencepiece
+# protobuf

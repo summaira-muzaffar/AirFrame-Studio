@@ -1,0 +1,5 @@
+# The exact versions this project was last run with on the author's PC (Windows, Python 3.15).
+# Use if a newer release ever breaks something:  pip install -r requirements-lock.txt
+opencv-python==5.0.0.93
+numpy==2.5.4
+mediapipe==1.1.0

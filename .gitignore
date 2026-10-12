@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large binary model files (downloaded automatically on first run by model_files.py)
+models/*.task
+models/*.tflite
+models/*.part
+
+# User-generated captures & gallery (preserves privacy - keeps personal photos local)
+gallery/
+
+# IDE & editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
